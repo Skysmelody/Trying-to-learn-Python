@@ -18,3 +18,10 @@ b
 c                                     
 # 本质上for in 之后再print就是迭代，print一个字母后重新进入foo开始打印下一个字母，直到穷尽。
 
+>>>foo = 'abc'                                               >>>foo = 'abc'    
+>>>for i in range(len(foo)):                                 >>>for i in range(len(foo)):  
+>>>    print (foo[i], '(%d)' %i)                             >>>    print (foo[i], '(%d)')
+a (0)                                                        a (%d)
+b (1)                                                        b (%d)
+c (2)                                                        c (%d)    
+#但%d和%i的意义到底在那里? 如果是%i是给%d赋值的话，%d是表示数字类型嘛？？
