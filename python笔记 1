@@ -1,0 +1,20 @@
+>>>for item in ['a' , 'b', 'c' ]:
+>>>    print (item)
+a
+b
+c                                      # print 会自动添加换行符号
+
+>>>for item in ['a' , 'b', 'c' ]:
+>>>    print (item , “” ， end = "")
+a b c                                 # end = “”使得结尾为空，同时""在输出的字母添加了空格
+
+
+
+>>>foo = 'abc'                                                >>>foo = 'abc'
+>>>for a in foo:                                              >>>print foo
+>>>    print (a)                                              abc
+a
+b
+c                                     
+# 本质上for in 之后再print就是迭代，print一个字母后重新进入foo开始打印下一个字母，直到穷尽。
+
