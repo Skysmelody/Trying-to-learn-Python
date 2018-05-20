@@ -1,3 +1,4 @@
+#print函数
 >>>for item in ['a' , 'b', 'c' ]:
 >>>    print (item)
 a
@@ -9,7 +10,7 @@ c                                      # print 会自动添加换行符号
 a b c                                 # end = “”使得结尾为空，同时""在输出的字母添加了空格
 
 
-
+#迭代foo
 >>>foo = 'abc'                                                >>>foo = 'abc'
 >>>for a in foo:                                              >>>print foo
 >>>    print (a)                                              abc
@@ -25,3 +26,10 @@ a (0)                                                        a (%d)
 b (1)                                                        b (%d)
 c (2)                                                        c (%d)    
 #但%d和%i的意义到底在那里? 如果是%i是给%d赋值的话，%d是表示数字类型嘛？？
+
+
+#浮点数的赋值和计算
+>>>miles = 1000
+>>>kilo = 1.609* miles
+>>>print ( "%f miles is equal to %f kilo" %(miles, kilo))
+1000.000000 miles is equal to 1609.000000 kilo
