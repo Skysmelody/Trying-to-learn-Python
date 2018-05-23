@@ -5,3 +5,22 @@ eb
 >>>foostr = "abcde"
 >>>print foostr[::2]
 ace
+
+整型对象和字符串对象是不可变对象，所以Python会很高效地缓存它们。这会造成我们认为Python应该创建新对象时，它却没有创建新对象的假象。
+
+#布尔值
+布尔逻辑操作符and、or和not都是Python关键字,这些操作符的优先级按从高到低的顺序列于表4.3。not操作符拥有最高优先级，只比所有比较操作
+符低一级。and和or操作符则相应地再低一级。
+>>> x= 1
+>>> x <3
+True
+>>> not x < 3
+false
+
+#内建函数
+type
+>>> type (4)
+<class 'int'>
+>>> type ("gi")
+<class 'str'>
+>>> 
