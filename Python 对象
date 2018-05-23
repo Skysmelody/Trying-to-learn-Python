@@ -1,1 +1,7 @@
-
+#切片
+>>>foostr = "abcde"
+>>>print foostr[::-3]
+eb
+>>>foostr = "abcde"
+>>>print foostr[::2]
+ace
